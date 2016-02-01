@@ -1,0 +1,14 @@
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\bin\Debug\FrontEndConfigGenerator.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\bin\Debug\FrontEndConfigGenerator.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\obj\x86\Debug\FrontEndConfigGenerator.FrontEndConfigControl.resources
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\obj\x86\Debug\FrontEndConfigGenerator.Properties.Resources.resources
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\obj\x86\Debug\FrontEndConfigGenerator.csproj.GenerateResource.Cache
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\obj\x86\Debug\FrontEndConfigGenerator.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\obj\x86\Debug\FrontEndConfigGenerator.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\obj\x86\Debug\FrontEndConfigGenerator.FrontEndConfigForm.resources
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\bin\Debug\FrontEndConfigGenerator.exe.config
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\bin\Debug\JsonGenerator.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\bin\Debug\JsonGenerator.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FrontEndConfigGenerator\obj\x86\Debug\FrontEndConfigGenerator.csprojResolveAssemblyReference.cache

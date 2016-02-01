@@ -1,0 +1,9 @@
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\bin\Debug\JsonParserTest.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\bin\Debug\JsonParserTest.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\bin\Debug\JsonParser.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\obj\x86\Debug\JsonParserTest.csprojResolveAssemblyReference.cache
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\obj\x86\Debug\JsonParserTest.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\obj\x86\Debug\JsonParserTest.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParserTest\bin\Debug\JsonParser.dll

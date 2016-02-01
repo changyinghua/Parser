@@ -1,0 +1,6 @@
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParser\bin\Debug\JsonParser.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParser\bin\Debug\Newtonsoft.Json.xml
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParser\obj\x86\Debug\JsonParser.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParser\bin\Debug\JsonParser.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonParser\obj\x86\Debug\JsonParser.dll

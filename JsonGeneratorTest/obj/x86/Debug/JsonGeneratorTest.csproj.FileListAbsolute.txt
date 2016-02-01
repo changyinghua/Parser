@@ -1,0 +1,9 @@
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\bin\Debug\JsonGeneratorTest.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\bin\Debug\JsonGeneratorTest.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\bin\Debug\JsonGenerator.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\bin\Debug\JsonGenerator.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\obj\x86\Debug\JsonGeneratorTest.csprojResolveAssemblyReference.cache
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\obj\x86\Debug\JsonGeneratorTest.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\JsonGeneratorTest\obj\x86\Debug\JsonGeneratorTest.pdb
