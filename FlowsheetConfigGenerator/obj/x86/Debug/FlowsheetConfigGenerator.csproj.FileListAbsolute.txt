@@ -1,0 +1,12 @@
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\bin\Debug\FlowsheetConfigGenerator.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\bin\Debug\FlowsheetConfigGenerator.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\obj\x86\Debug\FlowsheetConfigGenerator.FlowsheetConfigControl.resources
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\obj\x86\Debug\FlowsheetConfigGenerator.Properties.Resources.resources
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\obj\x86\Debug\FlowsheetConfigGenerator.csproj.GenerateResource.Cache
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\obj\x86\Debug\FlowsheetConfigGenerator.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\obj\x86\Debug\FlowsheetConfigGenerator.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\obj\x86\Debug\FlowsheetConfigGenerator.FlowsheetConfigForm.resources
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\obj\x86\Debug\FlowsheetConfigGenerator.csprojResolveAssemblyReference.cache
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\FlowsheetConfigGenerator\bin\Debug\FlowsheetConfigGenerator.exe.config

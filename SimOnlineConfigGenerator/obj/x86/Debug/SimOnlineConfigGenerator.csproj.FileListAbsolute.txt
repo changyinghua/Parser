@@ -1,0 +1,6 @@
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\SimOnlineConfigGenerator\bin\Debug\SimOnlineConfigGenerator.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\SimOnlineConfigGenerator\bin\Debug\SimOnlineConfigGenerator.pdb
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\SimOnlineConfigGenerator\obj\x86\Debug\SimOnlineConfigGenerator.Properties.Resources.resources
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\SimOnlineConfigGenerator\obj\x86\Debug\SimOnlineConfigGenerator.csproj.GenerateResource.Cache
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\SimOnlineConfigGenerator\obj\x86\Debug\SimOnlineConfigGenerator.exe
+C:\Users\6584\Documents\Visual Studio 2010\Projects\Parser\SimOnlineConfigGenerator\obj\x86\Debug\SimOnlineConfigGenerator.pdb

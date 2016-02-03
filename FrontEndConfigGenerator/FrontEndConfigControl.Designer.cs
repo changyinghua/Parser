@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.okButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
             this.processRemoveButton = new System.Windows.Forms.Button();
             this.processListBox = new System.Windows.Forms.ListBox();
             this.processAddButton = new System.Windows.Forms.Button();
@@ -50,18 +52,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tagNameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.generatorButton = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
+            this.groupComboBox = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.okButton);
+            this.groupBox1.Controls.Add(this.cancelButton);
             this.groupBox1.Controls.Add(this.processRemoveButton);
             this.groupBox1.Controls.Add(this.processListBox);
             this.groupBox1.Controls.Add(this.processAddButton);
@@ -69,10 +71,33 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(460, 100);
+            this.groupBox1.Size = new System.Drawing.Size(461, 164);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Process";
+            // 
+            // okButton
+            // 
+            this.okButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.okButton.Location = new System.Drawing.Point(298, 135);
+            this.okButton.Name = "okButton";
+            this.okButton.Size = new System.Drawing.Size(75, 23);
+            this.okButton.TabIndex = 5;
+            this.okButton.Text = "OK";
+            this.okButton.UseVisualStyleBackColor = true;
+            this.okButton.Click += new System.EventHandler(this.OnProcessOkButtonClick);
+            // 
+            // cancelButton
+            // 
+            this.cancelButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cancelButton.Enabled = false;
+            this.cancelButton.Location = new System.Drawing.Point(381, 135);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(75, 23);
+            this.cancelButton.TabIndex = 4;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.OnProcessCancelButtonClick);
             // 
             // processRemoveButton
             // 
@@ -86,14 +111,13 @@
             // 
             // processListBox
             // 
-            this.processListBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.processListBox.FormattingEnabled = true;
             this.processListBox.ItemHeight = 12;
             this.processListBox.Location = new System.Drawing.Point(282, 15);
             this.processListBox.Name = "processListBox";
-            this.processListBox.Size = new System.Drawing.Size(169, 76);
+            this.processListBox.Size = new System.Drawing.Size(174, 112);
             this.processListBox.TabIndex = 3;
+            this.processListBox.SelectedIndexChanged += new System.EventHandler(this.OnProcessListBoxSelectedIndexChanged);
             // 
             // processAddButton
             // 
@@ -123,9 +147,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.groupComboBox);
             this.groupBox2.Controls.Add(this.tagRemoveButton);
             this.groupBox2.Controls.Add(this.showTagNameCheckBox);
             this.groupBox2.Controls.Add(this.tagListBox);
@@ -141,17 +163,17 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.tagNameTextBox);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.groupTextBox);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(3, 109);
+            this.groupBox2.Location = new System.Drawing.Point(4, 173);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(460, 191);
+            this.groupBox2.Size = new System.Drawing.Size(460, 190);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tag";
             // 
             // tagRemoveButton
             // 
+            this.tagRemoveButton.Enabled = false;
             this.tagRemoveButton.Location = new System.Drawing.Point(232, 81);
             this.tagRemoveButton.Name = "tagRemoveButton";
             this.tagRemoveButton.Size = new System.Drawing.Size(44, 23);
@@ -163,6 +185,7 @@
             // showTagNameCheckBox
             // 
             this.showTagNameCheckBox.AutoSize = true;
+            this.showTagNameCheckBox.Enabled = false;
             this.showTagNameCheckBox.Location = new System.Drawing.Point(126, 163);
             this.showTagNameCheckBox.Name = "showTagNameCheckBox";
             this.showTagNameCheckBox.Size = new System.Drawing.Size(15, 14);
@@ -171,15 +194,18 @@
             // 
             // tagListBox
             // 
+            this.tagListBox.Enabled = false;
             this.tagListBox.FormattingEnabled = true;
             this.tagListBox.ItemHeight = 12;
             this.tagListBox.Location = new System.Drawing.Point(282, 18);
             this.tagListBox.Name = "tagListBox";
-            this.tagListBox.Size = new System.Drawing.Size(169, 160);
+            this.tagListBox.Size = new System.Drawing.Size(173, 160);
             this.tagListBox.TabIndex = 5;
+            this.tagListBox.SelectedIndexChanged += new System.EventHandler(this.OnTagListBoxSelectedIndexChanged);
             // 
             // tagAddButton
             // 
+            this.tagAddButton.Enabled = false;
             this.tagAddButton.Location = new System.Drawing.Point(232, 57);
             this.tagAddButton.Name = "tagAddButton";
             this.tagAddButton.Size = new System.Drawing.Size(44, 23);
@@ -235,6 +261,7 @@
             // 
             // absoluteHumidityTagTextBox
             // 
+            this.absoluteHumidityTagTextBox.Enabled = false;
             this.absoluteHumidityTagTextBox.Location = new System.Drawing.Point(126, 89);
             this.absoluteHumidityTagTextBox.Name = "absoluteHumidityTagTextBox";
             this.absoluteHumidityTagTextBox.Size = new System.Drawing.Size(100, 22);
@@ -251,6 +278,7 @@
             // 
             // dryBulbTagTextBox
             // 
+            this.dryBulbTagTextBox.Enabled = false;
             this.dryBulbTagTextBox.Location = new System.Drawing.Point(126, 65);
             this.dryBulbTagTextBox.Name = "dryBulbTagTextBox";
             this.dryBulbTagTextBox.Size = new System.Drawing.Size(100, 22);
@@ -267,6 +295,7 @@
             // 
             // tagNameTextBox
             // 
+            this.tagNameTextBox.Enabled = false;
             this.tagNameTextBox.Location = new System.Drawing.Point(126, 41);
             this.tagNameTextBox.Name = "tagNameTextBox";
             this.tagNameTextBox.Size = new System.Drawing.Size(100, 22);
@@ -281,13 +310,6 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "tagName : ";
             // 
-            // groupTextBox
-            // 
-            this.groupTextBox.Location = new System.Drawing.Point(126, 15);
-            this.groupTextBox.Name = "groupTextBox";
-            this.groupTextBox.Size = new System.Drawing.Size(100, 22);
-            this.groupTextBox.TabIndex = 3;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -300,7 +322,8 @@
             // generatorButton
             // 
             this.generatorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.generatorButton.Location = new System.Drawing.Point(307, 306);
+            this.generatorButton.Enabled = false;
+            this.generatorButton.Location = new System.Drawing.Point(301, 369);
             this.generatorButton.Name = "generatorButton";
             this.generatorButton.Size = new System.Drawing.Size(75, 23);
             this.generatorButton.TabIndex = 2;
@@ -311,13 +334,21 @@
             // CloseButton
             // 
             this.CloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.CloseButton.Location = new System.Drawing.Point(388, 306);
+            this.CloseButton.Location = new System.Drawing.Point(384, 369);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(75, 23);
             this.CloseButton.TabIndex = 3;
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = true;
             this.CloseButton.Click += new System.EventHandler(this.OnCloseButtonClick);
+            // 
+            // groupComboBox
+            // 
+            this.groupComboBox.FormattingEnabled = true;
+            this.groupComboBox.Location = new System.Drawing.Point(126, 18);
+            this.groupComboBox.Name = "groupComboBox";
+            this.groupComboBox.Size = new System.Drawing.Size(100, 20);
+            this.groupComboBox.TabIndex = 16;
             // 
             // FrontEndConfigControl
             // 
@@ -328,7 +359,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrontEndConfigControl";
-            this.Size = new System.Drawing.Size(470, 337);
+            this.Size = new System.Drawing.Size(471, 404);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -358,12 +389,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tagNameTextBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox groupTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button generatorButton;
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.CheckBox showTagNameCheckBox;
         private System.Windows.Forms.Button processRemoveButton;
         private System.Windows.Forms.Button tagRemoveButton;
+        private System.Windows.Forms.Button okButton;
+        private System.Windows.Forms.Button cancelButton;
+        private System.Windows.Forms.ComboBox groupComboBox;
     }
 }
